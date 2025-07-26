@@ -7,7 +7,7 @@ By using this library we can run init, clone, add, commit, push and ... commands
 
 Also by using `argparse` library along with `git`, we can write CLI to automate our git workflow from command line simply.
 
-For example, to add desired files, commit changes and push them to the origin:
+For example, this line can be run in the terminal to add desired files, commit changes and push them to the origin:
 ```
 python git_workflow_automation.py -a -c -m "commit message" -p
 ```
